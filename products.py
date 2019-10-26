@@ -11,3 +11,8 @@ while True:
 	#products.append(p)
 	products.append([name, price])	# fastest
 print(products)
+
+for p in products:
+	print(p)	# print every small list
+	print(p[0]) # print product name
+	print('The price of %s is %s' %(p[0], p[1]))
